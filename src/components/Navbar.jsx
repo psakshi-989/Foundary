@@ -9,11 +9,11 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-md relative">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="container mx-auto flex justify-between items-center px-2 py-1">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img src={symbol} alt="Company Logo" className="h-10 w-10" />
-          <img src={font} alt="Company Name" className="h-6" />
+          <img src={font} alt="Company Name" className="h-10" />
         </div>
 
         {/* Mobile Menu Toggle */}

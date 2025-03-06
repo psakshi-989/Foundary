@@ -3,7 +3,7 @@ import HeroImage from "../assets/hero-image.jpg";
 export default function Hero() {
   return (
     <section
-      className="relative bg-cover bg-center bg-no-repeat text-white py-20 px-6 md:px-12 text-center"
+      className="relative bg-cover bg-fixed bg-center bg-no-repeat mt-10 text-white py-20 px-6 md:px-12 text-center flex w-full h-screen flex-col items-center justify-center"
       style={{ backgroundImage: `url(${HeroImage})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>{" "}
